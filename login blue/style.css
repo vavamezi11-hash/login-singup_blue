@@ -57,6 +57,13 @@ input{
    font-family: 'Montserrat', sans-serif;
    font-size: 16px;
 }
+.login-container input:focus{
+   transform: translateY(-2px);
+   outline: none;
+   border-color: #3941ae;
+   transition: border-color 0.5s ease, transform 0.5s ease;
+}
+
 p{
    color: white;
    font-size: 16px;
